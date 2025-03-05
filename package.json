@@ -1,24 +1,25 @@
 {
-  "name": "blog-project",
+  "name": "ticketing-system",
   "version": "1.0.0",
   "content": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server/index.js",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eba-Fekadu/Blog-Project.git"
+    "url": "git+https://github.com/Eba-Fekadu/Role-based-Ticketing-system-MERN.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Eba-Fekadu/Blog-Project/issues"
+    "url": "https://github.com/Eba-Fekadu/Role-based-Ticketing-system-MERN/issues"
   },
-  "homepage": "https://github.com/Eba-Fekadu/Blog-Project#readme",
+  "homepage": "https://github.com/Eba-Fekadu/Role-based-Ticketing-system-MERN#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
